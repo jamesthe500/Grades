@@ -11,6 +11,10 @@ namespace Grades
     {
         static void Main(string[] args)
         {
+           
+          
+
+          
             SpeechSynthesizer synth = new SpeechSynthesizer();
             synth.Speak("Hello! I'm going to speak your grades.");
 
@@ -22,7 +26,7 @@ namespace Grades
             GradeStatistics stats = book.ComputeStatistics();
             Console.WriteLine(stats.HighestGrade); // SNIPPET - cw (tab tab) 
             Console.WriteLine(stats.AverageGrade);
-            Console.WriteLine(stats.LowestGrade);
+
         }
     }
 

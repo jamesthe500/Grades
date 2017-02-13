@@ -34,6 +34,8 @@ namespace Grades
             grades.Add(grade);
         }
 
-        List<float> grades; //  = new List<float>(); // must initialize a new instance of List, insure it points to an obj.
+        public string Name; // public classes start with a cap, private = lower case. 
+
+        private List<float> grades; //  = new List<float>(); // must initialize a new instance of List, insure it points to an obj.
     }
 }
